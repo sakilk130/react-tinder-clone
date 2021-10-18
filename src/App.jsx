@@ -6,12 +6,13 @@ function App() {
   return (
     <div className="App">
       {/* Header */}
+      <Header />
+
       {/* Tinder Cards */}
       {/* Buttons below tinder cards */}
 
       {/* Carts screen */}
       {/* individual chat screen */}
-      <Header />
     </div>
   );
 }
