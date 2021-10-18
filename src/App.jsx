@@ -12,12 +12,12 @@ function App() {
         {/* Header */}
         <Switch>
           <Route path="/">
+            {/* Tinder Cards */}
             <TinderCards />
           </Route>
           <Route path="/chat">Chat Page</Route>
         </Switch>
 
-        {/* Tinder Cards */}
         {/* Buttons below tinder cards */}
 
         {/* Carts screen */}
