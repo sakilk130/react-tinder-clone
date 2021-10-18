@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './components/Header';
 import './styles/App.css';
 import TinderCards from './components/TinderCards';
+import SwipeButtons from './components/SwipeButtons';
 
 function App() {
   return (
@@ -14,11 +15,11 @@ function App() {
           <Route path="/">
             {/* Tinder Cards */}
             <TinderCards />
+            {/* Buttons */}
+            <SwipeButtons />
           </Route>
           <Route path="/chat">Chat Page</Route>
         </Switch>
-
-        {/* Buttons below tinder cards */}
 
         {/* Carts screen */}
         {/* individual chat screen */}
